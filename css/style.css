@@ -137,6 +137,7 @@ html, body {
     top: 50%;
     transform: translateY(-50%);
 }
+
 .header__categories_active img {
     transform: translateY(-50%) rotate(90deg);
 }
@@ -175,7 +176,7 @@ html, body {
 
 .categories a {
     padding: 10px 0px 10px 15px;
-transition: .4s ease-out;
+    transition: .4s ease-out;
 }
 
 .categories a:hover {
@@ -247,7 +248,7 @@ transition: .4s ease-out;
 
 .block__left-title {
     display: flex;
-    padding: 28px 33px 25px;
+    padding: 28px 24.5px 25px;
     background: #7AC751;
     align-items: center;
 }
@@ -276,7 +277,6 @@ transition: .4s ease-out;
 }
 
 
-
 .block__left-links li:hover {
     background-color: #7AC751;
     border-bottom: 0.8px solid #7AC751;
@@ -297,7 +297,7 @@ transition: .4s ease-out;
 
 .block__right-title ul {
     display: flex;
-    padding: 25px 82px 25px;
+    padding: 32px 82px 25px;
 }
 
 .links__collections {
@@ -321,13 +321,13 @@ transition: .4s ease-out;
 .block__center {
     background-color: #F1FAFF;
     margin: 10px 0px 0px 10px;
-    height: 80.5%;
+    height: 77.6%;
     display: flex;
     justify-content: space-between;
     padding: 36px 47px 29px 39px;
 }
 
-.center-left__title  {
+.center-left__title {
     padding: 73px 0px 6px 0px;
     color: #7AC751;
     font-size: 22px;
@@ -350,7 +350,7 @@ transition: .4s ease-out;
     padding-bottom: 35px;
 }
 
-.center-left__button a{
+.center-left__button a {
     color: white;
     background: #7AC751;
     border-radius: 5px;
@@ -361,7 +361,6 @@ transition: .4s ease-out;
 .center-left__button a:hover {
     background: rgba(122, 199, 81, 0.75);
 }
-
 
 
 .collections__center-center img {
@@ -419,7 +418,7 @@ transition: .4s ease-out;
     padding: 0px 17px 0px 0px;
 }
 
-.text__tile{
+.text__tile {
     font-weight: 500;
     font-style: 20px;
     line-height: 26px;
@@ -555,8 +554,9 @@ transition: .4s ease-out;
         align-items: center;
         text-align: center;
     }
+
     .support__card {
-      flex-direction: column;
+        flex-direction: column;
         padding: 0px 0px 40px 0px;
     }
 
@@ -671,7 +671,7 @@ transition: .4s ease-out;
 .trending__cards {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 45px;
+    padding-bottom: 150px;
     flex-wrap: wrap;
 }
 
@@ -686,16 +686,19 @@ transition: .4s ease-out;
     width: 270px;
     height: 287px;
 }
+
 .card-three {
     background: url("img1/chair3.png") 50%/cover no-repeat;
     width: 270px;
     height: 287px;
 }
+
 .card-four {
     background: url("img1/chair4.png") 50%/cover no-repeat;
     width: 270px;
     height: 287px;
 }
+
 .card-five {
     background: url("img1/chair5.png") 50%/cover no-repeat;
     width: 270px;
@@ -707,18 +710,20 @@ transition: .4s ease-out;
     width: 270px;
     height: 287px;
 }
+
 .card-seven {
     background: url("img1/chair7.png") 50%/cover no-repeat;
     width: 270px;
     height: 287px;
 }
+
 .card-ethe {
     background: url("img1/chair8.png") 50%/cover no-repeat;
     width: 270px;
     height: 287px;
 }
 
-.card__new  {
+.card__new {
     background: #00B7F1;
     max-width: 40px;
     border-radius: 0px 0px 5px 0px;
@@ -736,12 +741,12 @@ transition: .4s ease-out;
 }
 
 .card__text {
-   padding-top: 15px;
+    padding-top: 15px;
     transition: 0.9s ease-in-out;
 }
 
 .card__text:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .card__text h3 {
@@ -785,8 +790,8 @@ transition: .4s ease-out;
 
 @media (max-width: 1100px) {
     .trending__cards {
-flex-wrap: wrap;
-     align-items: center;
+        flex-wrap: wrap;
+        align-items: center;
 
     }
 
@@ -795,10 +800,20 @@ flex-wrap: wrap;
     }
 }
 
+
+@media (max-width: 633px) {
+    .trending__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
 @media (max-width: 590px) {
     .pdng {
         padding: 0;
     }
+
     .trending__links ul {
         flex-direction: column;
         padding-bottom: 50px;
@@ -808,10 +823,164 @@ flex-wrap: wrap;
         padding-bottom: 20px;
     }
 
-    .trending__cards {
-        flex-direction: column;
-        align-items: center;
-    }
+
 }
+
+
+.offer__text {
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.offer__block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+}
+
+.offer-block__left {
+    background: url("img1/rectangle-43.png") 90%/cover no-repeat;
+    width: 600px;
+    height: 249px;
+}
+
+.offer-block__right {
+    background: url("img1/rectangle-44.png") 90%/cover no-repeat;
+    width: 600px;
+    height: 249px;
+}
+
+.offer_discont {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.offer_discont h4 {
+    display: inline-block;
+    background-color: #00B7F1;
+    padding: 5px;
+    border-radius: 0px 0px 0px 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.offer__info {
+    margin: 9px 0px 0px 24px;
+}
+
+.offer__info h3 {
+    font-size: 22px;
+    line-height: 27px;
+    padding-bottom: 11px;
+}
+
+.offer__info h4 {
+    color: #757575;
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 25px;
+}
+
+.offer__price {
+    display: flex;
+    justify-content: space-between;
+    max-width: 230px;
+}
+
+.price__info {
+    display: flex;
+    margin: 0px 0px 0px 24px;
+    font-size: 18px;
+}
+
+.price__info h3 {
+    padding: 0px 7px 0px 0px;
+    color: #7AC751;
+    font-weight: 500;
+}
+
+.price__info h4 {
+    color: #CCCCCC;
+    text-decoration: line-through;
+}
+
+.price__button a {
+    color: white;
+    background: #7AC751;
+    border-radius: 2px;
+    padding: 7px 10px 7px 10px;
+    transition: .4s ease-in-out;
+}
+
+.price__button a:hover {
+    background: rgba(122, 199, 81, 0.75);
+}
+
+.offer__timer {
+    display: flex;
+    margin: 31px 0px 0px 25px;
+    max-width: 200px;
+    justify-content: space-between;
+}
+
+.timer__body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: #7AC751;
+    border-radius: 50%;
+
+    max-width: 50px;
+}
+
+.timer__text {
+    color: white;
+    padding: 8px 11.3px 5.3px 11.9px;
+}
+
+.timer__text h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.timer__text h2 {
+    font-size: 6px;
+    line-height: 7.2px;
+    letter-spacing: 0.5%;
+}
+
+@media (max-width: 1230px) {
+
+    .trending__cards {
+        padding-bottom: 50px;
+    }
+
+    .offer__block {
+        display: flex;
+        justify-content: center;
+    }
+
+    .offer-block__left {
+        margin-bottom: 30px;
+    }
+
+    .offer__opacity {
+        background: rgba(255, 255, 255, 0.4);
+        height: 100%;
+    }
+
+    .offer__info {
+        margin: 20px 0px 0px 24px;
+    }
+
+}
+
+
+
+
 
 
