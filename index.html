@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header__start">
+            <div class="start__container _container">
+                <div class="start__body">
+                    <div class="start__title">
+                        <h3>Welcome to our online shop</h3>
+                    </div>
+
+                    <div class="start__account">
+                        <a href="#">Login or Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__nav">
+            <div class="nav__container _container">
+                <div class="nav__body">
+                    <div class="header__logo">
+                        <img src="img/logo.svg" alt="logo">
+                    </div>
+
+                    <div class="search__panel">
+                        <div class="search__body">
+                            <div class="header__search">
+                                <input name="search" placeholder="Search here">
+                            </div>
+                            <div class="header__categories">
+                                <a class="header__categories-link" href="#" onclick="toggleCategories(this)">Categories</a>
+                                <img src="img/mini-arrow.svg" alt="arrow">
+                                <div class="categories">
+                                    <ul>
+                                        <li><a href="#">All</a></li>
+                                        <li><a href="#">New Arrivals</a></li>
+                                        <li><a href="#">Hot Sale</a></li>
+                                        <li><a href="#">Furniture</a></li>
+                                        <li><a href="#">Amrature</a></li>
+                                        <li><a href="#">Tabble</a></li>
+                                        <li><a href="#">Chair</a></li>
+                                        <li><a href="#">Sofa</a></li>
+                                        <li><a href="#">Mirrors</a></li>
+                                        <li><a href="#">Stools</a></li>
+                                        <li><a href="#">Benches</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__loop">
+                                <a href="#"><img src="img/search.svg" alt="search"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav__icon">
+                        <img src="img/carm.svg" alt="carm">
+                        <img src="img/notification.svg" alt="notf">
+                        <img src="img/man.svg" alt="man">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="page__collections">
+            <div class="collections__container _container">
+                <div class="collections__body">
+                    <div class="block__left">
+                        <div data-aos="flip-right">
+                            <div class="block__left-title">
+                                <img src="img/stairs.svg" alt="strs">
+                                <h3>ALL COLLECTIONS</h3>
+                            </div>
+                            <div class="block__left-links">
+                                <ul>
+                                    <li><a href="#">All</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Hot Sale</a></li>
+                                    <li><a href="#">Furniture</a></li>
+                                    <li><a href="#">Amrature</a></li>
+                                    <li><a href="#">Tabble</a></li>
+                                    <li><a href="#">Chair</a></li>
+                                    <li><a href="#">Sofa</a></li>
+                                    <li><a href="#">Mirrors</a></li>
+                                    <li><a href="#">Stools</a></li>
+                                    <li><a href="#">Benches</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block__right">
+                        <div data-aos="flip-down">
+                            <div class="block__right-title">
+                                <ul>
+                                    <li><a href="#" class="links__collections">HOME</a></li>
+                                    <li><a href="#" class="links__collections">SHOP</a></li>
+                                    <li><a href="#" class="links__collections">BLOG</a></li>
+                                    <li><a href="#" class="links__collections">ABOUT</a></li>
+                                    <li><a href="#" class="_last">CONTACT US</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="block__center">
+                            <div class="collections__center-left">
+                                <div class="center-left__title"><h2>TOP COLLECTIONS 2022</h2></div>
+                                <div class="center-left__sub-title"><h3>We Serve Your <br>
+                                    Dream Furniture</h3></div>
+                                <div class="center-left__sell"><h3>Get 50% off all products</h3></div>
+                                <div class="center-left__button"><a href="#">SHOP NOW</a></div>
+                            </div>
+                            <div class="collections__center-center">
+                                <img src="img/furniture-1.png" alt="furnit">
+                            </div>
+                            <div class="collections__center-right">
+                                <div class="center-right__body">
+                                    <div class="body__card">
+                                        <div class="card__img">
+                                            <img src="img/furniture-2.png" alt="furnit">
+                                        </div>
+                                        <div class="card__price"><h2>$ 120</h2></div>
+                                        <div class="card__name"><h2>Office Desk Chair</h2></div>
+                                    </div>
+                                    <div class="body__card">
+                                        <div class="card__img">
+                                            <img src="img/furniture-3.png" alt="furnit">
+                                        </div>
+                                        <div class="card__price"><h2>$ 180</h2></div>
+                                        <div class="card__name"><h2>Home Alisa Sofa</h2></div>
+                                    </div>
+                                    <div class="body__card">
+                                        <div class="card__img">
+                                            <img src="img/furniture-4.png" alt="furnit">
+                                        </div>
+                                        <div class="card__price"><h2>$ 250</h2></div>
+                                        <div class="card__name"><h2>Modern Chair</h2></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="page__support">
+            <div class="support__container _container">
+                <div class="support__body">
+                    <div class="support__cards">
+                        <div class="support__card">
+                            <div class="support__img"><img src="img/free-delivery.svg" alt="free-delivery"></div>
+                            <div class="support__text">
+                                <div class="text__tile">
+                                    <h2>Free Shipping</h2>
+                                </div>
+                                <div class="text__sub-title">
+                                    <h2>Orders over $100</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="support__card">
+                            <div class="support__img"><img src="img/gift-card.svg" alt="free-delivery"></div>
+                            <div class="support__text">
+                                <div class="text__tile">
+                                    <h2>Smart Gift Card</h2>
+                                </div>
+                                <div class="text__sub-title">
+                                    <h2>Buy $1000 to get card</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="support__card">
+                            <div class="support__img"><img src="img/payment.svg" alt="free-delivery"></div>
+                            <div class="support__text">
+                                <div class="text__tile">
+                                    <h2>Quick Payment</h2>
+                                </div>
+                                <div class="text__sub-title">
+                                    <h2>100% secure payment</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="support__card">
+                            <div class="support__img"><img src="img/support.svg" alt="free-delivery"></div>
+                            <div class="support__text">
+                                <div class="text__tile">
+                                    <h2>24/7 Support</h2>
+                                </div>
+                                <div class="text__sub-title">
+                                    <h2>Quick support</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page__info">
+            <div class="info__container _container">
+                <div class="info__body">
+                    <div class="info__block-left">
+                        <div class="block-left__info">
+                            <div class="block-left__text">
+                                <div><h3>Modern Furniture Collections</h3></div>
+                                <div><h2>Starting from $500</h2></div>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info__block-right">
+                        <div class="info__bookcase">
+                            <div><h3>Geometric Bookcase</h3></div>
+                            <div><h2>Up to 20% discount</h2></div>
+                            <a href="#">Read more</a>
+                        </div>
+                        <div class="info__sofa">
+                            <div><h3>Minimal Sofa collections </h3></div>
+                            <div><h2>Sale upto 40% discount</h2></div>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="page__trending">
+            <div class="trending__container _container">
+
+                <div class="trending__body">
+                    <div class="trending__text">
+                        <div class="trending__title">
+                            <h3>TRENDING</h3>
+                        </div>
+                        <div class="trending__links">
+                            <ul>
+                                <li><a href="#" class="pdng">Top Products</a></li>
+                                <li><a href="#" class="pdng">New Arrivals</a></li>
+                                <li><a href="#">Best Sellers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-in">
+                    <div class="trending__cards">
+                        <a href="#">
+                            <div class="card__body">
+                                <div class="trending__card card-one">
+                                    <div class="card__new"><h3>New</h3></div>
+                                </div>
+                                <div class="card__text">
+                                    <h3>CHAIR</h3>
+                                    <h2>Minimal LCD chair</h2>
+                                    <div class="card__under-text">
+                                        <div class="card__price">
+                                            <h4>$180</h4>
+                                            <h5>$250</h5>
+                                        </div>
+                                        <div class="card__star">
+                                            <img src="img/ratings.svg" alt="rtng">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card__body ">
+                                <div class="trending__card card-two">
+                                    <div class="card__new"><h3>New</h3></div>
+                                </div>
+                                <div class="card__text">
+                                    <h3>CHAIR</h3>
+                                    <h2>Minimal iconic chair</h2>
+                                    <div class="card__under-text">
+                                        <div class="card__price">
+                                            <h4>$120</h4>
+                                            <h5>$150</h5>
+                                        </div>
+                                        <div class="card__star">
+                                            <img src="img/ratings.svg" alt="rtng">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card__body">
+                                <div class="trending__card card-three">
+                                    <div class="card__new green"><h3>New</h3></div>
+                                </div>
+                                <div class="card__text">
+                                    <h3>CHAIR</h3>
+                                    <h2>Dining chairs</h2>
+                                    <div class="card__under-text">
+                                        <div class="card__price">
+                                            <h4>$100</h4>
+                                            <h5>$120</h5>
+                                        </div>
+                                        <div class="card__star">
+                                            <img src="img/ratings.svg" alt="rtng">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card__body">
+                                <div class="trending__card card-four">
+                                    <div class="card__new green"><h3>New</h3></div>
+                                </div>
+                                <div class="card__text">
+                                    <h3>CHAIR</h3>
+                                    <h2>Buskbo armchair</h2>
+                                    <div class="card__under-text">
+                                        <div class="card__price">
+                                            <h4>$130</h4>
+                                            <h5>$150</h5>
+                                        </div>
+                                        <div class="card__star">
+                                            <img src="img/ratings.svg" alt="rtng">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trending__cards">
+                        <a href="#">
+                            <div class="card__body">
+                                <div class="trending__card card-five">
+                                    <div class="card__new"><h3>New</h3></div>
+                                </div>
+                                <div class="card__text">
+                                    <h3>CHAIR</h3>
+                                    <h2>Modern chairs</h2>
+                                    <div class="card__under-text">
+                                        <div class="card__price">
+                                            <h4>$100</h4>
+                                            <h5>$120</h5>
+                                        </div>
+                                        <div class="card__star">
+                                            <img src="img/ratings.svg" alt="rtng">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card__body ">
+                                <div class="trending__card card-six">
+                                    <div class="card__new"><h3>New</h3></div>
+                                </div>
+                                <div class="card__text">
+                                    <h3>CHAIR</h3>
+                                    <h2>Plastic dining chair</h2>
+                                    <div class="card__under-text">
+                                        <div class="card__price">
+                                            <h4>$130</h4>
+                                            <h5>$150</h5>
+                                        </div>
+                                        <div class="card__star">
+                                            <img src="img/ratings.svg" alt="rtng">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card__body">
+                                <div class="trending__card card-seven">
+                                    <div class="card__new green"><h3>New</h3></div>
+                                </div>
+                                <div class="card__text">
+                                    <h3>CHAIR</h3>
+                                    <h2>Minimal Wood chair</h2>
+                                    <div class="card__under-text">
+                                        <div class="card__price">
+                                            <h4>$180</h4>
+                                            <h5>$250</h5>
+                                        </div>
+                                        <div class="card__star">
+                                            <img src="img/ratings.svg" alt="rtng">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card__body">
+                                <div class="trending__card card-ethe">
+                                    <div class="card__new green"><h3>New</h3></div>
+                                </div>
+                                <div class="card__text">
+                                    <h3>CHAIR</h3>
+                                    <h2>Elegent wood chair</h2>
+                                    <div class="card__under-text">
+                                        <div class="card__price">
+                                            <h4>$120</h4>
+                                            <h5>$150</h5>
+                                        </div>
+                                        <div class="card__star">
+                                            <img src="img/ratings.svg" alt="rtng">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/add.js"></script>
+</body>
+</html>
