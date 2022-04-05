@@ -68,7 +68,7 @@ html, body {
 
 .start__account {
     font-weight: 400;
-    font-style: 16px;
+    font-size: 16px;
     color: white;
     margin: 16px 0px 0px 0px;
     border-left: 2.2px solid #fff;
@@ -321,7 +321,7 @@ html, body {
 .block__center {
     background-color: #F1FAFF;
     margin: 10px 0px 0px 10px;
-    height: 77.6%;
+    height: 74.6%;
     display: flex;
     justify-content: space-between;
     padding: 36px 47px 29px 39px;
@@ -332,12 +332,12 @@ html, body {
     color: #7AC751;
     font-size: 22px;
     line-height: 26px;
-    letter-spacing: 5%;
+    letter-spacing: 2px;
 }
 
 .center-left__sub-title {
     font-size: 40px;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 47.4px;
     padding-bottom: 29px;
 }
@@ -395,9 +395,16 @@ html, body {
     padding-bottom: 6px;
 }
 
+.card__priced {
+    color: #7AC751;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 6px;
+}
+
 .card__name {
     color: #555555;
-    font-size: 7px;
+    font-size: 11px;
 }
 
 .page__support {
@@ -420,7 +427,7 @@ html, body {
 
 .text__tile {
     font-weight: 500;
-    font-style: 20px;
+    font-size: 20px;
     line-height: 26px;
 }
 
@@ -723,6 +730,80 @@ html, body {
     height: 287px;
 }
 
+
+.card-nine {
+    background: url("img1/placeholder.png") 50%/cover no-repeat;
+    width: 270px;
+    height: 287px;
+}
+
+.card-ten {
+    background: url("img1/placeholder1.png") 50%/cover no-repeat;
+    width: 270px;
+    height: 287px;
+}
+
+.card-eleven {
+    background: url("img1/placeholder2.png") 50%/cover no-repeat;
+    width: 270px;
+    height: 287px;
+}
+
+.card-twelve {
+    background: url("img1/placeholder3.png") 50%/cover no-repeat;
+    width: 270px;
+    height: 287px;
+}
+
+.card-thirteen {
+    background: url("img1/placeholder4.png") 50%/cover no-repeat;
+    width: 270px;
+    height: 287px;
+}
+
+.card-fourteen {
+    background: url("img1/placeholder5.png") 50%/cover no-repeat;
+    width: 270px;
+    height: 287px;
+}
+
+.card-fifteen {
+    background: url("img1/placeholder6.png") 50%/cover no-repeat;
+    width: 270px;
+    height: 287px;
+}
+
+.card-sixteen {
+    background: url("img1/placeholder7.png") 50%/cover no-repeat;
+    width: 270px;
+    height: 287px;
+}
+
+.card__new-green {
+    background: #7AC751;
+    max-width: 40px;
+    border-radius: 0px 0px 5px 0px;
+    color: white;
+    padding: 4px 0px 2px 5px;
+}
+
+.card__new-blue {
+    background: #00B7F1;
+    max-width: 40px;
+    border-radius: 0px 0px 5px 0px;
+    color: white;
+    padding: 4px 0px 2px 5px;
+}
+
+.card__new-orange {
+    background: #FF6868;
+    max-width: 42px;
+    border-radius: 0px 0px 5px 0px;
+    color: white;
+    padding: 4px 0px 2px 3px;
+}
+
+
 .card__new {
     background: #00B7F1;
     max-width: 40px;
@@ -760,7 +841,7 @@ html, body {
     color: #555555;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 0.5%;
+    letter-spacing: 0.5px;
     padding-bottom: 8px;
 }
 
@@ -783,10 +864,42 @@ html, body {
     margin: 15px;
 }
 
-.card-body__mod {
 
+.products__text {
+    text-align: center;
 }
 
+
+.products__title {
+    padding-bottom: 45px;
+    font-size: 36px;
+    line-height: 45px;
+    color: #555555;
+}
+
+.products__links ul {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 73px;
+}
+
+.products__links li {
+    padding: 0px 66px 0px 0px;
+}
+
+.products__links a {
+    font-size: 24px;
+    color: #676767;
+    transition: .5s ease-out;
+}
+
+.products__links a:hover {
+    color: #7AC751;
+}
+
+.products__links li:last-child {
+    padding: 0;
+}
 
 @media (max-width: 1100px) {
     .trending__cards {
@@ -939,7 +1052,8 @@ html, body {
 
 .timer__text {
     color: white;
-    padding: 8px 11.3px 5.3px 11.9px;
+    padding: 8px 12.3px 9.3px 11.9px;
+
 }
 
 .timer__text h3 {
@@ -950,7 +1064,7 @@ html, body {
 .timer__text h2 {
     font-size: 6px;
     line-height: 7.2px;
-    letter-spacing: 0.5%;
+    letter-spacing: 0.5px;
 }
 
 @media (max-width: 1230px) {
@@ -979,6 +1093,250 @@ html, body {
 
 }
 
+.products__nxt-page {
+    max-width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nxt-page__button {
+    position: relative;
+    display: flex;
+}
+
+.nxt-page__page {
+    margin-left: 150px;
+}
+
+
+.nxt-page__button a {
+    background: #7AC751;
+    color: white;
+    border-radius: 2px;
+    padding: 12px 53px 10px 20px;
+    font-size: 18px;
+    display: block;
+    transition: .4s ease-in-out;
+}
+
+.nxt-page__button a:hover {
+    background: rgba(122, 199, 81, 0.75);
+}
+
+.nxt-page__button img {
+    position: absolute;
+    top: 40%;
+    left: 115px;
+}
+
+.nxt-page__page {
+    display: flex;
+    align-items: center;
+}
+
+.page__left {
+    padding-right: 9px;
+    color: #757575;
+}
+
+.page__center {
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    background: #F8FAFB;
+    padding: 7px 24px 7px 24px;
+    margin-right: 19px;
+}
+
+.page__right h2 {
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    color: #757575;
+}
+
+.page__button-lft-right {
+    background: #7AC751;
+    padding: 9px 5px 9px 5px;
+    border-radius: 2px;
+    margin-left: 23px;
+}
+
+.page__button-lft-right img {
+    padding: 0px 9px 0px 9px;
+}
+
+
+@media (max-width: 650px) {
+    .products__nxt-page {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .nxt-page__page {
+        margin-left: 0px;
+    }
+
+    .nxt-page__button {
+      display: none;
+    }
+
+    .page__button-lft-right {
+        display: block;
+    }
+}
+
+
+.page__review {
+    padding: 135px 0px 115px 0px;
+}
+
+
+.review__text{
+    text-align: center;
+    font-size: 36px;
+}
+
+.slider{
+    max-width: 90%;
+    /* Положение элемента устанавливается относительно его исходной позиции: */
+    position: relative;
+    /* Центрируем по горизонтали: */
+    margin: auto;
+    height: 312px;
+    padding-top: 90px;
+    text-align: center;
+}
+
+/*!* Картинка масштабируется по отношению к родительскому элементу: *!*/
+/*.slider .item img {*/
+/*    !* Элемент меняет размер так, чтобы заполнить блок и сохранить пропорции: *!*/
+/*    object-fit: cover;*/
+/*    width: 100%;*/
+/*    height: 300px;*/
+/*}*/
+
+/* Кнопки назад и вперёд: */
+.slider .previous, .slider .next {
+    /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+    cursor: pointer;
+    /* Положение элемента задаётся относительно границ браузера: */
+    top: 76%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    /* Оформление самих кнопок: */
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    /* Плавное появление фона при наведении курсора: */
+    transition: 0.6s ease;
+    /* Скругление границ: */
+    border-radius: 0 3px 3px 0;
+}
+
+.slider__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 350px;
+}
+
+
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* При наведении курсора на кнопки добавляем фон кнопок: */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.content__img {
+    padding-top: 20px;
+}
+
+.content__img img {
+    max-width: 100%;
+}
+
+.content__text {
+    padding: 32px 0px 32px 0px;
+}
+
+.content__under-text h4 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+}
+
+.content__under-text h2 {
+    padding-bottom: 47px;
+}
+
+.gray {
+    background: #F8FAFB;
+}
+
+.blue {
+    background: rgba(0, 183, 241, 0.29);
+}
+
+.pink {
+    background: rgba(255, 192, 203, 0.38);
+}
+
+.item__content h3 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.content__text a {
+    display: none;
+}
+
+
+/* Анимация слайдов: */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    from {
+        opacity: 0.6
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+@media (max-width: 690px) {
+
+    .content__text {
+        margin: 0px 20px 0px 20px;
+    }
+
+    .content__text span {
+        display: none;
+    }
+
+
+    .content__text a {
+        display: flex;
+        justify-content: center;
+        color: #7AC751;
+    }
+
+}
 
 
 
